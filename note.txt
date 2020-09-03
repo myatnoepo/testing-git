@@ -1,0 +1,89 @@
+// Main Functions
+
+- Item Mangement
+	- Brand / Category / Subcategory / 
+
+- Sell / Shopping
+
+- Order Management
+	- items / customer 
+	- orders / order_detail
+
+- Customer Manage
+	- Reports
+
+-orders
+	- voucherid,user_id,orderdate,status
+
+-order_details
+	- voucherid,product_id,qty
+
+-brands
+=> 1 | b1 | photo
+=> 2 | b2 | photo
+
+-categories
+=> 1 | fashion | photo
+=> 2 | electronic | photo
+
+
+-subcategories
+=> 1 | baby wear | 1 
+
+
+- os_laravel
+
+Model Relationship
+-----------------
+- one-to-one
+	-hasOne (p)
+	-belongsTo (c)
+
+- one-to-many
+	-hasMany (p)
+	-belongsTo (c)
+
+- many-to-many
+	-belongsToMany
+	-pivot table
+
+- Homework (using backend template)
+----------
+	- create route for dashboard page (get)
+	- create master blade (views/backendtemplate.blade.php)
+	- create child blade (views/backend/dashboard.blade.php)
+	- create controller BackendController
+		- create method dashboardfun()
+		- call view (backend.dashboard)
+
+Item (CRUD)
+-----------
+create - show form , store data
+retrieve - display data (all , row)
+update - show form with old value , update data
+delete - delete data
+
+Authentication
+--------------
+- installtion
+	- nodejs (call npm in terminal)
+- Docs
+	- Security / Authentication
+- Commands
+	- composer require laravel/ui
+	- php artisan ui bootstrap --auth
+	- npm install
+	- npm run dev
+- Routes
+	- localhost:8000/login
+	- localhost:8000/register
+
+GIT
+---
+- git init
+- git add .
+- git commit -m "message"
+- git remote add origin url
+- git push -u origin master
+
+- git pull
